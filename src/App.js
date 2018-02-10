@@ -1,37 +1,61 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
+import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react';
 import HomepageContainer from './containers/HomepageContainer';
-import Portfolio from './components/Portfolio';
-import Bio from './components/Bio';
 import Contact from './components/Contact';
-import DoubleTaps from './components/DoubleTaps'
 import HeaderContainer from './containers/HeaderContainer';
 import Homepage from './components/Homepage';
 import Projects from './components/Projects';
-import Webdev from './components/Webdev';
 
 class App extends Component {
   constructor(){
     super()
-
+    this.state = {
+      visible:false
+    }
   }
 
+  toggleVisibility = () => this.setState({ visible: !this.state.visible })
+
+
   render() {
+
+        const { visible } = this.state;
+
     return (
+      <Router>
       <div>
-        <HeaderContainer/>
+          <HeaderContainer toggleVisibility={this.toggleVisibility}/>
+        <div className='overflow-auto' >
+        <Sidebar.Pushable >
+        <Sidebar as={Menu} animation='overlay' visible={visible} icon='labeled' vertical>
+          <Menu.Item name='sun' as={Link} to='/' >
+            <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='sun' />
+            Home
+          </Menu.Item>
+          <Menu.Item name='adjust' as={Link} to='/projects' >
+            <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='adjust' />
+            Work
+          </Menu.Item>
+          <Menu.Item name='moon' as={Link} to='/contact'>
+            <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='moon' />
+            Contact
+          </Menu.Item>
+        </Sidebar>
+        <Sidebar.Pusher style={{ height: '84vh'}}>
         <Switch>
-          <Route path='/' component={Homepage}/>
-          <Route path="/portfolio" component={Portfolio} />
-          <Route path="/bio" component={Bio} />
-          <Route path='/contact' component={Contact}/>
-          <Route path='/likes' component={DoubleTaps}/>
-          <Route path="/projects" component={Projects}/>
-          <Route path="/dev" component={Webdev}/>
+        <Route exact path='/' component={Homepage}/>
+        <Route path='/contact' component={Contact}/>
+        <Route path="/projects" component={Projects}/>
         </Switch>
+        </Sidebar.Pusher>
+        </Sidebar.Pushable>
+        </div>
       </div>
+      </ Router>
     );
   }
 }
+
 
 export default App;

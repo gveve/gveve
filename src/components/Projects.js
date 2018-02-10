@@ -8,9 +8,11 @@ class Projects extends Component{
 
   render(){
     return(
-      <div div style={{ height: '81.9vh'}} className="w-full h-full flex">
-        <div className="flex-1 w-full mx-8 mb-8 border border-yellow">
-          <h1> Projects! </h1>
+      <div className="w-full h-full flex">
+        <div className="flex w-full mx-8">
+          <div className='w-24 bg-light-blu'/>
+          <div className='flex-1'/>
+          <div className='w-24 bg-light-blu'/>
         </div>
       </div>
     )

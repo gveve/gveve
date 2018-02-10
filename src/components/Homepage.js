@@ -13,8 +13,12 @@ class Homepage extends Component {
 
     return(
       <div className="w-full h-full flex">
-        <div className="flex w-full mx-8 mb-8 border border-yellow">
-          <h1> Hey! </h1>
+        <div className="flex w-full mx-8">
+          <div className='w-24 bg-light-blu'/>
+          <div className='flex-1'>
+          <div className='flex-1 w-24 h-64 border border-green bg-green'/>
+          </div>
+          <div className='w-24 bg-light-blu'/>
         </div>
       </div>
     )
