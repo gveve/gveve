@@ -11,6 +11,7 @@ class HomepageContainer extends Component{
   render(){
     return(
       <div style={{ height: '81.9vh'}}>
+      <Homepage />
       </div>
     )
   }

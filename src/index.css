@@ -633,42 +633,6 @@ button,
   background-color: transparent;
 }
 
-.bg-light-blu {
-  background-color: #caebf2;
-}
-
-.bg-grey-kinda {
-  background-color: #a9a9a9;
-}
-
-.bg-white-creamy {
-  background-color: #efefef;
-}
-
-.bg-blue-blu-dark {
-  background-color: #2a3e77;
-}
-
-.bg-yellow-yello {
-  background-color: #fee361;
-}
-
-.bg-teal-med {
-  background-color: #4899c3;
-}
-
-.bg-teal-green {
-  background-color: #508694;
-}
-
-.bg-grey-teal {
-  background-color: #6b7a8f;
-}
-
-.bg-teal-blue {
-  background-color: #6acdec;
-}
-
 .bg-black {
   background-color: #22292f;
 }
@@ -959,42 +923,6 @@ button,
 
 .hover\:bg-transparent:hover {
   background-color: transparent;
-}
-
-.hover\:bg-light-blu:hover {
-  background-color: #caebf2;
-}
-
-.hover\:bg-grey-kinda:hover {
-  background-color: #a9a9a9;
-}
-
-.hover\:bg-white-creamy:hover {
-  background-color: #efefef;
-}
-
-.hover\:bg-blue-blu-dark:hover {
-  background-color: #2a3e77;
-}
-
-.hover\:bg-yellow-yello:hover {
-  background-color: #fee361;
-}
-
-.hover\:bg-teal-med:hover {
-  background-color: #4899c3;
-}
-
-.hover\:bg-teal-green:hover {
-  background-color: #508694;
-}
-
-.hover\:bg-grey-teal:hover {
-  background-color: #6b7a8f;
-}
-
-.hover\:bg-teal-blue:hover {
-  background-color: #6acdec;
 }
 
 .hover\:bg-black:hover {
@@ -1349,42 +1277,6 @@ button,
   border-color: transparent;
 }
 
-.border-light-blu {
-  border-color: #caebf2;
-}
-
-.border-grey-kinda {
-  border-color: #a9a9a9;
-}
-
-.border-white-creamy {
-  border-color: #efefef;
-}
-
-.border-blue-blu-dark {
-  border-color: #2a3e77;
-}
-
-.border-yellow-yello {
-  border-color: #fee361;
-}
-
-.border-teal-med {
-  border-color: #4899c3;
-}
-
-.border-teal-green {
-  border-color: #508694;
-}
-
-.border-grey-teal {
-  border-color: #6b7a8f;
-}
-
-.border-teal-blue {
-  border-color: #6acdec;
-}
-
 .border-black {
   border-color: #22292f;
 }
@@ -1675,42 +1567,6 @@ button,
 
 .hover\:border-transparent:hover {
   border-color: transparent;
-}
-
-.hover\:border-light-blu:hover {
-  border-color: #caebf2;
-}
-
-.hover\:border-grey-kinda:hover {
-  border-color: #a9a9a9;
-}
-
-.hover\:border-white-creamy:hover {
-  border-color: #efefef;
-}
-
-.hover\:border-blue-blu-dark:hover {
-  border-color: #2a3e77;
-}
-
-.hover\:border-yellow-yello:hover {
-  border-color: #fee361;
-}
-
-.hover\:border-teal-med:hover {
-  border-color: #4899c3;
-}
-
-.hover\:border-teal-green:hover {
-  border-color: #508694;
-}
-
-.hover\:border-grey-teal:hover {
-  border-color: #6b7a8f;
-}
-
-.hover\:border-teal-blue:hover {
-  border-color: #6acdec;
 }
 
 .hover\:border-black:hover {
@@ -3695,42 +3551,6 @@ button,
   color: transparent;
 }
 
-.text-light-blu {
-  color: #caebf2;
-}
-
-.text-grey-kinda {
-  color: #a9a9a9;
-}
-
-.text-white-creamy {
-  color: #efefef;
-}
-
-.text-blue-blu-dark {
-  color: #2a3e77;
-}
-
-.text-yellow-yello {
-  color: #fee361;
-}
-
-.text-teal-med {
-  color: #4899c3;
-}
-
-.text-teal-green {
-  color: #508694;
-}
-
-.text-grey-teal {
-  color: #6b7a8f;
-}
-
-.text-teal-blue {
-  color: #6acdec;
-}
-
 .text-black {
   color: #22292f;
 }
@@ -4021,42 +3841,6 @@ button,
 
 .hover\:text-transparent:hover {
   color: transparent;
-}
-
-.hover\:text-light-blu:hover {
-  color: #caebf2;
-}
-
-.hover\:text-grey-kinda:hover {
-  color: #a9a9a9;
-}
-
-.hover\:text-white-creamy:hover {
-  color: #efefef;
-}
-
-.hover\:text-blue-blu-dark:hover {
-  color: #2a3e77;
-}
-
-.hover\:text-yellow-yello:hover {
-  color: #fee361;
-}
-
-.hover\:text-teal-med:hover {
-  color: #4899c3;
-}
-
-.hover\:text-teal-green:hover {
-  color: #508694;
-}
-
-.hover\:text-grey-teal:hover {
-  color: #6b7a8f;
-}
-
-.hover\:text-teal-blue:hover {
-  color: #6acdec;
 }
 
 .hover\:text-black:hover {
@@ -4727,42 +4511,6 @@ button,
     background-color: transparent;
   }
 
-  .sm\:bg-light-blu {
-    background-color: #caebf2;
-  }
-
-  .sm\:bg-grey-kinda {
-    background-color: #a9a9a9;
-  }
-
-  .sm\:bg-white-creamy {
-    background-color: #efefef;
-  }
-
-  .sm\:bg-blue-blu-dark {
-    background-color: #2a3e77;
-  }
-
-  .sm\:bg-yellow-yello {
-    background-color: #fee361;
-  }
-
-  .sm\:bg-teal-med {
-    background-color: #4899c3;
-  }
-
-  .sm\:bg-teal-green {
-    background-color: #508694;
-  }
-
-  .sm\:bg-grey-teal {
-    background-color: #6b7a8f;
-  }
-
-  .sm\:bg-teal-blue {
-    background-color: #6acdec;
-  }
-
   .sm\:bg-black {
     background-color: #22292f;
   }
@@ -5053,42 +4801,6 @@ button,
 
   .sm\:hover\:bg-transparent:hover {
     background-color: transparent;
-  }
-
-  .sm\:hover\:bg-light-blu:hover {
-    background-color: #caebf2;
-  }
-
-  .sm\:hover\:bg-grey-kinda:hover {
-    background-color: #a9a9a9;
-  }
-
-  .sm\:hover\:bg-white-creamy:hover {
-    background-color: #efefef;
-  }
-
-  .sm\:hover\:bg-blue-blu-dark:hover {
-    background-color: #2a3e77;
-  }
-
-  .sm\:hover\:bg-yellow-yello:hover {
-    background-color: #fee361;
-  }
-
-  .sm\:hover\:bg-teal-med:hover {
-    background-color: #4899c3;
-  }
-
-  .sm\:hover\:bg-teal-green:hover {
-    background-color: #508694;
-  }
-
-  .sm\:hover\:bg-grey-teal:hover {
-    background-color: #6b7a8f;
-  }
-
-  .sm\:hover\:bg-teal-blue:hover {
-    background-color: #6acdec;
   }
 
   .sm\:hover\:bg-black:hover {
@@ -5443,42 +5155,6 @@ button,
     border-color: transparent;
   }
 
-  .sm\:border-light-blu {
-    border-color: #caebf2;
-  }
-
-  .sm\:border-grey-kinda {
-    border-color: #a9a9a9;
-  }
-
-  .sm\:border-white-creamy {
-    border-color: #efefef;
-  }
-
-  .sm\:border-blue-blu-dark {
-    border-color: #2a3e77;
-  }
-
-  .sm\:border-yellow-yello {
-    border-color: #fee361;
-  }
-
-  .sm\:border-teal-med {
-    border-color: #4899c3;
-  }
-
-  .sm\:border-teal-green {
-    border-color: #508694;
-  }
-
-  .sm\:border-grey-teal {
-    border-color: #6b7a8f;
-  }
-
-  .sm\:border-teal-blue {
-    border-color: #6acdec;
-  }
-
   .sm\:border-black {
     border-color: #22292f;
   }
@@ -5769,42 +5445,6 @@ button,
 
   .sm\:hover\:border-transparent:hover {
     border-color: transparent;
-  }
-
-  .sm\:hover\:border-light-blu:hover {
-    border-color: #caebf2;
-  }
-
-  .sm\:hover\:border-grey-kinda:hover {
-    border-color: #a9a9a9;
-  }
-
-  .sm\:hover\:border-white-creamy:hover {
-    border-color: #efefef;
-  }
-
-  .sm\:hover\:border-blue-blu-dark:hover {
-    border-color: #2a3e77;
-  }
-
-  .sm\:hover\:border-yellow-yello:hover {
-    border-color: #fee361;
-  }
-
-  .sm\:hover\:border-teal-med:hover {
-    border-color: #4899c3;
-  }
-
-  .sm\:hover\:border-teal-green:hover {
-    border-color: #508694;
-  }
-
-  .sm\:hover\:border-grey-teal:hover {
-    border-color: #6b7a8f;
-  }
-
-  .sm\:hover\:border-teal-blue:hover {
-    border-color: #6acdec;
   }
 
   .sm\:hover\:border-black:hover {
@@ -7781,42 +7421,6 @@ button,
     color: transparent;
   }
 
-  .sm\:text-light-blu {
-    color: #caebf2;
-  }
-
-  .sm\:text-grey-kinda {
-    color: #a9a9a9;
-  }
-
-  .sm\:text-white-creamy {
-    color: #efefef;
-  }
-
-  .sm\:text-blue-blu-dark {
-    color: #2a3e77;
-  }
-
-  .sm\:text-yellow-yello {
-    color: #fee361;
-  }
-
-  .sm\:text-teal-med {
-    color: #4899c3;
-  }
-
-  .sm\:text-teal-green {
-    color: #508694;
-  }
-
-  .sm\:text-grey-teal {
-    color: #6b7a8f;
-  }
-
-  .sm\:text-teal-blue {
-    color: #6acdec;
-  }
-
   .sm\:text-black {
     color: #22292f;
   }
@@ -8107,42 +7711,6 @@ button,
 
   .sm\:hover\:text-transparent:hover {
     color: transparent;
-  }
-
-  .sm\:hover\:text-light-blu:hover {
-    color: #caebf2;
-  }
-
-  .sm\:hover\:text-grey-kinda:hover {
-    color: #a9a9a9;
-  }
-
-  .sm\:hover\:text-white-creamy:hover {
-    color: #efefef;
-  }
-
-  .sm\:hover\:text-blue-blu-dark:hover {
-    color: #2a3e77;
-  }
-
-  .sm\:hover\:text-yellow-yello:hover {
-    color: #fee361;
-  }
-
-  .sm\:hover\:text-teal-med:hover {
-    color: #4899c3;
-  }
-
-  .sm\:hover\:text-teal-green:hover {
-    color: #508694;
-  }
-
-  .sm\:hover\:text-grey-teal:hover {
-    color: #6b7a8f;
-  }
-
-  .sm\:hover\:text-teal-blue:hover {
-    color: #6acdec;
   }
 
   .sm\:hover\:text-black:hover {
@@ -8814,42 +8382,6 @@ button,
     background-color: transparent;
   }
 
-  .md\:bg-light-blu {
-    background-color: #caebf2;
-  }
-
-  .md\:bg-grey-kinda {
-    background-color: #a9a9a9;
-  }
-
-  .md\:bg-white-creamy {
-    background-color: #efefef;
-  }
-
-  .md\:bg-blue-blu-dark {
-    background-color: #2a3e77;
-  }
-
-  .md\:bg-yellow-yello {
-    background-color: #fee361;
-  }
-
-  .md\:bg-teal-med {
-    background-color: #4899c3;
-  }
-
-  .md\:bg-teal-green {
-    background-color: #508694;
-  }
-
-  .md\:bg-grey-teal {
-    background-color: #6b7a8f;
-  }
-
-  .md\:bg-teal-blue {
-    background-color: #6acdec;
-  }
-
   .md\:bg-black {
     background-color: #22292f;
   }
@@ -9140,42 +8672,6 @@ button,
 
   .md\:hover\:bg-transparent:hover {
     background-color: transparent;
-  }
-
-  .md\:hover\:bg-light-blu:hover {
-    background-color: #caebf2;
-  }
-
-  .md\:hover\:bg-grey-kinda:hover {
-    background-color: #a9a9a9;
-  }
-
-  .md\:hover\:bg-white-creamy:hover {
-    background-color: #efefef;
-  }
-
-  .md\:hover\:bg-blue-blu-dark:hover {
-    background-color: #2a3e77;
-  }
-
-  .md\:hover\:bg-yellow-yello:hover {
-    background-color: #fee361;
-  }
-
-  .md\:hover\:bg-teal-med:hover {
-    background-color: #4899c3;
-  }
-
-  .md\:hover\:bg-teal-green:hover {
-    background-color: #508694;
-  }
-
-  .md\:hover\:bg-grey-teal:hover {
-    background-color: #6b7a8f;
-  }
-
-  .md\:hover\:bg-teal-blue:hover {
-    background-color: #6acdec;
   }
 
   .md\:hover\:bg-black:hover {
@@ -9530,42 +9026,6 @@ button,
     border-color: transparent;
   }
 
-  .md\:border-light-blu {
-    border-color: #caebf2;
-  }
-
-  .md\:border-grey-kinda {
-    border-color: #a9a9a9;
-  }
-
-  .md\:border-white-creamy {
-    border-color: #efefef;
-  }
-
-  .md\:border-blue-blu-dark {
-    border-color: #2a3e77;
-  }
-
-  .md\:border-yellow-yello {
-    border-color: #fee361;
-  }
-
-  .md\:border-teal-med {
-    border-color: #4899c3;
-  }
-
-  .md\:border-teal-green {
-    border-color: #508694;
-  }
-
-  .md\:border-grey-teal {
-    border-color: #6b7a8f;
-  }
-
-  .md\:border-teal-blue {
-    border-color: #6acdec;
-  }
-
   .md\:border-black {
     border-color: #22292f;
   }
@@ -9856,42 +9316,6 @@ button,
 
   .md\:hover\:border-transparent:hover {
     border-color: transparent;
-  }
-
-  .md\:hover\:border-light-blu:hover {
-    border-color: #caebf2;
-  }
-
-  .md\:hover\:border-grey-kinda:hover {
-    border-color: #a9a9a9;
-  }
-
-  .md\:hover\:border-white-creamy:hover {
-    border-color: #efefef;
-  }
-
-  .md\:hover\:border-blue-blu-dark:hover {
-    border-color: #2a3e77;
-  }
-
-  .md\:hover\:border-yellow-yello:hover {
-    border-color: #fee361;
-  }
-
-  .md\:hover\:border-teal-med:hover {
-    border-color: #4899c3;
-  }
-
-  .md\:hover\:border-teal-green:hover {
-    border-color: #508694;
-  }
-
-  .md\:hover\:border-grey-teal:hover {
-    border-color: #6b7a8f;
-  }
-
-  .md\:hover\:border-teal-blue:hover {
-    border-color: #6acdec;
   }
 
   .md\:hover\:border-black:hover {
@@ -11868,42 +11292,6 @@ button,
     color: transparent;
   }
 
-  .md\:text-light-blu {
-    color: #caebf2;
-  }
-
-  .md\:text-grey-kinda {
-    color: #a9a9a9;
-  }
-
-  .md\:text-white-creamy {
-    color: #efefef;
-  }
-
-  .md\:text-blue-blu-dark {
-    color: #2a3e77;
-  }
-
-  .md\:text-yellow-yello {
-    color: #fee361;
-  }
-
-  .md\:text-teal-med {
-    color: #4899c3;
-  }
-
-  .md\:text-teal-green {
-    color: #508694;
-  }
-
-  .md\:text-grey-teal {
-    color: #6b7a8f;
-  }
-
-  .md\:text-teal-blue {
-    color: #6acdec;
-  }
-
   .md\:text-black {
     color: #22292f;
   }
@@ -12194,42 +11582,6 @@ button,
 
   .md\:hover\:text-transparent:hover {
     color: transparent;
-  }
-
-  .md\:hover\:text-light-blu:hover {
-    color: #caebf2;
-  }
-
-  .md\:hover\:text-grey-kinda:hover {
-    color: #a9a9a9;
-  }
-
-  .md\:hover\:text-white-creamy:hover {
-    color: #efefef;
-  }
-
-  .md\:hover\:text-blue-blu-dark:hover {
-    color: #2a3e77;
-  }
-
-  .md\:hover\:text-yellow-yello:hover {
-    color: #fee361;
-  }
-
-  .md\:hover\:text-teal-med:hover {
-    color: #4899c3;
-  }
-
-  .md\:hover\:text-teal-green:hover {
-    color: #508694;
-  }
-
-  .md\:hover\:text-grey-teal:hover {
-    color: #6b7a8f;
-  }
-
-  .md\:hover\:text-teal-blue:hover {
-    color: #6acdec;
   }
 
   .md\:hover\:text-black:hover {
@@ -12901,42 +12253,6 @@ button,
     background-color: transparent;
   }
 
-  .lg\:bg-light-blu {
-    background-color: #caebf2;
-  }
-
-  .lg\:bg-grey-kinda {
-    background-color: #a9a9a9;
-  }
-
-  .lg\:bg-white-creamy {
-    background-color: #efefef;
-  }
-
-  .lg\:bg-blue-blu-dark {
-    background-color: #2a3e77;
-  }
-
-  .lg\:bg-yellow-yello {
-    background-color: #fee361;
-  }
-
-  .lg\:bg-teal-med {
-    background-color: #4899c3;
-  }
-
-  .lg\:bg-teal-green {
-    background-color: #508694;
-  }
-
-  .lg\:bg-grey-teal {
-    background-color: #6b7a8f;
-  }
-
-  .lg\:bg-teal-blue {
-    background-color: #6acdec;
-  }
-
   .lg\:bg-black {
     background-color: #22292f;
   }
@@ -13227,42 +12543,6 @@ button,
 
   .lg\:hover\:bg-transparent:hover {
     background-color: transparent;
-  }
-
-  .lg\:hover\:bg-light-blu:hover {
-    background-color: #caebf2;
-  }
-
-  .lg\:hover\:bg-grey-kinda:hover {
-    background-color: #a9a9a9;
-  }
-
-  .lg\:hover\:bg-white-creamy:hover {
-    background-color: #efefef;
-  }
-
-  .lg\:hover\:bg-blue-blu-dark:hover {
-    background-color: #2a3e77;
-  }
-
-  .lg\:hover\:bg-yellow-yello:hover {
-    background-color: #fee361;
-  }
-
-  .lg\:hover\:bg-teal-med:hover {
-    background-color: #4899c3;
-  }
-
-  .lg\:hover\:bg-teal-green:hover {
-    background-color: #508694;
-  }
-
-  .lg\:hover\:bg-grey-teal:hover {
-    background-color: #6b7a8f;
-  }
-
-  .lg\:hover\:bg-teal-blue:hover {
-    background-color: #6acdec;
   }
 
   .lg\:hover\:bg-black:hover {
@@ -13617,42 +12897,6 @@ button,
     border-color: transparent;
   }
 
-  .lg\:border-light-blu {
-    border-color: #caebf2;
-  }
-
-  .lg\:border-grey-kinda {
-    border-color: #a9a9a9;
-  }
-
-  .lg\:border-white-creamy {
-    border-color: #efefef;
-  }
-
-  .lg\:border-blue-blu-dark {
-    border-color: #2a3e77;
-  }
-
-  .lg\:border-yellow-yello {
-    border-color: #fee361;
-  }
-
-  .lg\:border-teal-med {
-    border-color: #4899c3;
-  }
-
-  .lg\:border-teal-green {
-    border-color: #508694;
-  }
-
-  .lg\:border-grey-teal {
-    border-color: #6b7a8f;
-  }
-
-  .lg\:border-teal-blue {
-    border-color: #6acdec;
-  }
-
   .lg\:border-black {
     border-color: #22292f;
   }
@@ -13943,42 +13187,6 @@ button,
 
   .lg\:hover\:border-transparent:hover {
     border-color: transparent;
-  }
-
-  .lg\:hover\:border-light-blu:hover {
-    border-color: #caebf2;
-  }
-
-  .lg\:hover\:border-grey-kinda:hover {
-    border-color: #a9a9a9;
-  }
-
-  .lg\:hover\:border-white-creamy:hover {
-    border-color: #efefef;
-  }
-
-  .lg\:hover\:border-blue-blu-dark:hover {
-    border-color: #2a3e77;
-  }
-
-  .lg\:hover\:border-yellow-yello:hover {
-    border-color: #fee361;
-  }
-
-  .lg\:hover\:border-teal-med:hover {
-    border-color: #4899c3;
-  }
-
-  .lg\:hover\:border-teal-green:hover {
-    border-color: #508694;
-  }
-
-  .lg\:hover\:border-grey-teal:hover {
-    border-color: #6b7a8f;
-  }
-
-  .lg\:hover\:border-teal-blue:hover {
-    border-color: #6acdec;
   }
 
   .lg\:hover\:border-black:hover {
@@ -15955,42 +15163,6 @@ button,
     color: transparent;
   }
 
-  .lg\:text-light-blu {
-    color: #caebf2;
-  }
-
-  .lg\:text-grey-kinda {
-    color: #a9a9a9;
-  }
-
-  .lg\:text-white-creamy {
-    color: #efefef;
-  }
-
-  .lg\:text-blue-blu-dark {
-    color: #2a3e77;
-  }
-
-  .lg\:text-yellow-yello {
-    color: #fee361;
-  }
-
-  .lg\:text-teal-med {
-    color: #4899c3;
-  }
-
-  .lg\:text-teal-green {
-    color: #508694;
-  }
-
-  .lg\:text-grey-teal {
-    color: #6b7a8f;
-  }
-
-  .lg\:text-teal-blue {
-    color: #6acdec;
-  }
-
   .lg\:text-black {
     color: #22292f;
   }
@@ -16281,42 +15453,6 @@ button,
 
   .lg\:hover\:text-transparent:hover {
     color: transparent;
-  }
-
-  .lg\:hover\:text-light-blu:hover {
-    color: #caebf2;
-  }
-
-  .lg\:hover\:text-grey-kinda:hover {
-    color: #a9a9a9;
-  }
-
-  .lg\:hover\:text-white-creamy:hover {
-    color: #efefef;
-  }
-
-  .lg\:hover\:text-blue-blu-dark:hover {
-    color: #2a3e77;
-  }
-
-  .lg\:hover\:text-yellow-yello:hover {
-    color: #fee361;
-  }
-
-  .lg\:hover\:text-teal-med:hover {
-    color: #4899c3;
-  }
-
-  .lg\:hover\:text-teal-green:hover {
-    color: #508694;
-  }
-
-  .lg\:hover\:text-grey-teal:hover {
-    color: #6b7a8f;
-  }
-
-  .lg\:hover\:text-teal-blue:hover {
-    color: #6acdec;
   }
 
   .lg\:hover\:text-black:hover {
@@ -16988,42 +16124,6 @@ button,
     background-color: transparent;
   }
 
-  .xl\:bg-light-blu {
-    background-color: #caebf2;
-  }
-
-  .xl\:bg-grey-kinda {
-    background-color: #a9a9a9;
-  }
-
-  .xl\:bg-white-creamy {
-    background-color: #efefef;
-  }
-
-  .xl\:bg-blue-blu-dark {
-    background-color: #2a3e77;
-  }
-
-  .xl\:bg-yellow-yello {
-    background-color: #fee361;
-  }
-
-  .xl\:bg-teal-med {
-    background-color: #4899c3;
-  }
-
-  .xl\:bg-teal-green {
-    background-color: #508694;
-  }
-
-  .xl\:bg-grey-teal {
-    background-color: #6b7a8f;
-  }
-
-  .xl\:bg-teal-blue {
-    background-color: #6acdec;
-  }
-
   .xl\:bg-black {
     background-color: #22292f;
   }
@@ -17314,42 +16414,6 @@ button,
 
   .xl\:hover\:bg-transparent:hover {
     background-color: transparent;
-  }
-
-  .xl\:hover\:bg-light-blu:hover {
-    background-color: #caebf2;
-  }
-
-  .xl\:hover\:bg-grey-kinda:hover {
-    background-color: #a9a9a9;
-  }
-
-  .xl\:hover\:bg-white-creamy:hover {
-    background-color: #efefef;
-  }
-
-  .xl\:hover\:bg-blue-blu-dark:hover {
-    background-color: #2a3e77;
-  }
-
-  .xl\:hover\:bg-yellow-yello:hover {
-    background-color: #fee361;
-  }
-
-  .xl\:hover\:bg-teal-med:hover {
-    background-color: #4899c3;
-  }
-
-  .xl\:hover\:bg-teal-green:hover {
-    background-color: #508694;
-  }
-
-  .xl\:hover\:bg-grey-teal:hover {
-    background-color: #6b7a8f;
-  }
-
-  .xl\:hover\:bg-teal-blue:hover {
-    background-color: #6acdec;
   }
 
   .xl\:hover\:bg-black:hover {
@@ -17704,42 +16768,6 @@ button,
     border-color: transparent;
   }
 
-  .xl\:border-light-blu {
-    border-color: #caebf2;
-  }
-
-  .xl\:border-grey-kinda {
-    border-color: #a9a9a9;
-  }
-
-  .xl\:border-white-creamy {
-    border-color: #efefef;
-  }
-
-  .xl\:border-blue-blu-dark {
-    border-color: #2a3e77;
-  }
-
-  .xl\:border-yellow-yello {
-    border-color: #fee361;
-  }
-
-  .xl\:border-teal-med {
-    border-color: #4899c3;
-  }
-
-  .xl\:border-teal-green {
-    border-color: #508694;
-  }
-
-  .xl\:border-grey-teal {
-    border-color: #6b7a8f;
-  }
-
-  .xl\:border-teal-blue {
-    border-color: #6acdec;
-  }
-
   .xl\:border-black {
     border-color: #22292f;
   }
@@ -18030,42 +17058,6 @@ button,
 
   .xl\:hover\:border-transparent:hover {
     border-color: transparent;
-  }
-
-  .xl\:hover\:border-light-blu:hover {
-    border-color: #caebf2;
-  }
-
-  .xl\:hover\:border-grey-kinda:hover {
-    border-color: #a9a9a9;
-  }
-
-  .xl\:hover\:border-white-creamy:hover {
-    border-color: #efefef;
-  }
-
-  .xl\:hover\:border-blue-blu-dark:hover {
-    border-color: #2a3e77;
-  }
-
-  .xl\:hover\:border-yellow-yello:hover {
-    border-color: #fee361;
-  }
-
-  .xl\:hover\:border-teal-med:hover {
-    border-color: #4899c3;
-  }
-
-  .xl\:hover\:border-teal-green:hover {
-    border-color: #508694;
-  }
-
-  .xl\:hover\:border-grey-teal:hover {
-    border-color: #6b7a8f;
-  }
-
-  .xl\:hover\:border-teal-blue:hover {
-    border-color: #6acdec;
   }
 
   .xl\:hover\:border-black:hover {
@@ -20042,42 +19034,6 @@ button,
     color: transparent;
   }
 
-  .xl\:text-light-blu {
-    color: #caebf2;
-  }
-
-  .xl\:text-grey-kinda {
-    color: #a9a9a9;
-  }
-
-  .xl\:text-white-creamy {
-    color: #efefef;
-  }
-
-  .xl\:text-blue-blu-dark {
-    color: #2a3e77;
-  }
-
-  .xl\:text-yellow-yello {
-    color: #fee361;
-  }
-
-  .xl\:text-teal-med {
-    color: #4899c3;
-  }
-
-  .xl\:text-teal-green {
-    color: #508694;
-  }
-
-  .xl\:text-grey-teal {
-    color: #6b7a8f;
-  }
-
-  .xl\:text-teal-blue {
-    color: #6acdec;
-  }
-
   .xl\:text-black {
     color: #22292f;
   }
@@ -20368,42 +19324,6 @@ button,
 
   .xl\:hover\:text-transparent:hover {
     color: transparent;
-  }
-
-  .xl\:hover\:text-light-blu:hover {
-    color: #caebf2;
-  }
-
-  .xl\:hover\:text-grey-kinda:hover {
-    color: #a9a9a9;
-  }
-
-  .xl\:hover\:text-white-creamy:hover {
-    color: #efefef;
-  }
-
-  .xl\:hover\:text-blue-blu-dark:hover {
-    color: #2a3e77;
-  }
-
-  .xl\:hover\:text-yellow-yello:hover {
-    color: #fee361;
-  }
-
-  .xl\:hover\:text-teal-med:hover {
-    color: #4899c3;
-  }
-
-  .xl\:hover\:text-teal-green:hover {
-    color: #508694;
-  }
-
-  .xl\:hover\:text-grey-teal:hover {
-    color: #6b7a8f;
-  }
-
-  .xl\:hover\:text-teal-blue:hover {
-    color: #6acdec;
   }
 
   .xl\:hover\:text-black:hover {
