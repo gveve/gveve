@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route, Link, Switch, Redirect, IndexRedirect} from 'react-router-dom';
+import './index.tailwind.css';
+import 'semantic-ui-css/semantic.min.css';
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react';
 import HomepageContainer from './containers/HomepageContainer';
 import Contact from './components/Contact';
@@ -9,7 +11,6 @@ import Projects from './components/Projects';
 import Dev from './components/Dev';
 import Art from './components/Art';
 import Party from './components/Party';
-import Sketch from 'sketch-js/js/sketch.js';
 
 
     var COLOURS = [ '#caebf2', '#fee361', '#a9a9a9'];
@@ -59,10 +60,6 @@ class App extends Component {
           <Menu.Item name='moon' as={Link} to='/contact'>
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='moon' />
             Contact
-          </Menu.Item>
-          <Menu.Item name='adjust' as={Link} to='/art' >
-            <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='star' />
-            Party
           </Menu.Item>
         </Sidebar>
         <Sidebar.Pusher style={{ height: '84vh'}} id='container'>

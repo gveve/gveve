@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Link, Route, Switch } from 'react-router-dom';
 import heygveve from '../images/heygveve.png'
 import '../index.tailwind.css';
-import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react';
 import HomepageContainer from '../containers/HomepageContainer'
 import Contact from '../components/Contact';
 import Homepage from '../components/Homepage';

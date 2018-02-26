@@ -15,7 +15,6 @@ import Background from '../images/linkme.jpg'
 // 'grey-teal': '#6b7a8f',
 // 'teal-blue': '#6acdec',
 
-const Image = 'https://tailwindcss.com/img/card-left.jpg';
 var COLOURS = [ '#caebf2', '#fee361', '#a9a9a9'];
 var radius = 0;
 
