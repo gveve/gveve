@@ -4,6 +4,7 @@ import Sketch from 'sketch-js/js/sketch.js'
 import { Link } from 'react-router-dom';
 import '../index.tailwind.css';
 import Background from '../images/linkme.jpg'
+import Other  from '../images/linkme5.png'
 
 // 'light-blu': '#caebf2',
 // 'grey-kinda': '#a9a9a9',
@@ -65,14 +66,17 @@ class Homepage extends React.Component {
 render(){
 
     return(
-        <div className='flex'>
-        <div id='genny' className="flex-1 bg-left" style={{backgroundImage: "url(" + Background + ")",  backgroundSize: "contain"}} >
-        <div id="sketchy" className="flex-1" >
+      <div className='flex'>
+      <div id='genny' className="flex-1 bg-left-top" style={{backgroundImage: "url(" + Other + ")",  backgroundSize: "contain", backgroundRepeat: 'no-repeat'}} >
+      <div id="sketchy" className="flex-1">
         </div>
         </div>
         </div>
     )
   }
 }
+
+// style={{backgroundImage: "url(" + Background + ")",  backgroundSize: "contain", backgroundRepeat: 'no-repeat'}}
+
 
 export default Homepage

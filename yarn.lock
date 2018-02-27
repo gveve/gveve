@@ -5847,9 +5847,9 @@ react-scripts@1.0.17:
   optionalDependencies:
     fsevents "1.1.2"
 
-react-slick@^0.18.1:
-  version "0.18.1"
-  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.18.1.tgz#9dd119af80d2f1276213b6fe04ff39edca12d9a1"
+react-slick@^0.19.0:
+  version "0.19.0"
+  resolved "https://registry.yarnpkg.com/react-slick/-/react-slick-0.19.0.tgz#dade3b34c24db0b09a27911b308fcdd53baa592d"
   dependencies:
     can-use-dom "^0.1.0"
     classnames "^2.2.5"

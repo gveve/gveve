@@ -10,9 +10,9 @@ class Projects extends Component{
     return(
       <div className="w-full h-full flex">
         <div className="flex w-full mx-8">
-          <div className='w-24 bg-light-blu'/>
-          <div className='flex-1'/>
-          <div className='w-24 bg-light-blu'/>
+          <div className='w-32 bg-light-blu'/>
+          <div className='flex-1 text-center'>Projects</div>
+          <div className='w-32 bg-light-blu'/>
         </div>
       </div>
     )

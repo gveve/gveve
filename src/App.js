@@ -41,28 +41,28 @@ class App extends Component {
         <div className='overflow-auto' >
         <Sidebar.Pushable >
         <Sidebar as={Menu} animation='overlay' visible={visible} icon='labeled' vertical>
-          <Menu.Item name='sun' as={Link} to='/home' >
+          <Menu.Item name='sun' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/home' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='sun' />
             Home
           </Menu.Item>
-          <Menu.Item name='adjust' as={Link} to='/web' >
+          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/web' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='circle outline' />
             Web Development
           </Menu.Item>
-          <Menu.Item name='adjust' as={Link} to='/projects' >
+          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/projects' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='adjust' />
             Projects
           </Menu.Item>
-          <Menu.Item name='adjust' as={Link} to='/art' >
+          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/art' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='circle' />
             Art
           </Menu.Item>
-          <Menu.Item name='moon' as={Link} to='/contact'>
+          <Menu.Item name='moon' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/contact'>
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='moon' />
             Contact
           </Menu.Item>
         </Sidebar>
-        <Sidebar.Pusher style={{ height: '84vh'}} id='container'>
+        <Sidebar.Pusher style={{ height: '84vh'}} className="mx-8" id='container'>
         <Switch>
         <Route path='/home' component={Homepage}/>
         <Redirect exact from='/' to='/home' />
@@ -70,7 +70,6 @@ class App extends Component {
         <Route path="/projects" component={Projects}/>
         <Route path='/web' component={Dev}/>
         <Route path='/art' component={Art}/>
-        <Route path='/party' component={Party}/>
         </Switch>
         </Sidebar.Pusher>
         </Sidebar.Pushable>
