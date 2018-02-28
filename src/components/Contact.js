@@ -14,7 +14,7 @@ class Contact extends Component{
     return(
         <div className="flex w-full h-full mx-8">
           <div className='lg:w-32'></div>
-          <div className='w-full flex overflow-auto'>
+          <div className='container w-full flex overflow-auto'>
             <div className="flex-1 w-3/4 h-full pl-1 align-middle">
               <div className="text-black font-bold text-xl align-middle tracking-wide ml-8 mt-8">GENEVIEVE COSTA</div>
               <div className="text-black font-bold text-base align-middle ml-8 mt-4">PROJECT MANAGER / CREATIVE / TECH</div>
