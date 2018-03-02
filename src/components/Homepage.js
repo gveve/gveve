@@ -67,7 +67,7 @@ render(){
 
     return(
       <div className='flex'>
-      <div id='genny' className="flex-1 bg-left-top" style={{backgroundImage: "url(" + Other + ")",  backgroundSize: "contain", backgroundRepeat: 'no-repeat'}} >
+      <div id='genny' className="flex-1 bg-left-top h-screen" style={{backgroundImage: "url(" + Other + ")",  backgroundSize: "contain", backgroundRepeat: 'no-repeat'}} >
       <div id="sketchy" className="flex-1">
         </div>
         </div>

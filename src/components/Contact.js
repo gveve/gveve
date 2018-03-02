@@ -12,10 +12,10 @@ class Contact extends Component{
 
   render(){
     return(
-        <div className="flex w-full h-full mx-8">
-          <div className='lg:w-32'></div>
+        <div className="flex w-full h-full md:mx-4 lg:mx-8">
+          <div className='lg:w-32 sm:w-px md:w-px'></div>
           <div className='container w-full flex overflow-auto'>
-            <div className="flex-1 w-3/4 h-full pl-1 align-middle">
+            <div className="lg:flex-1 sm:block md:block sm:w-full md:w-full lg:w-3/4 h-full pl-1 align-middle">
               <div className="text-black font-bold text-xl align-middle tracking-wide ml-8 mt-8">GENEVIEVE COSTA</div>
               <div className="text-black font-bold text-base align-middle ml-8 mt-4">PROJECT MANAGER / CREATIVE / TECH</div>
 
@@ -54,7 +54,7 @@ class Contact extends Component{
 
             </div>
           </div>
-              <div className='w-1/4  m-8 flex-shrink h-full' style={{backgroundImage: "url("+Image+")", backgroundSize: "contain", backgroundRepeat: "no-repeat"}}>
+              <div className='sm:w-px md:w-1/4 lg:w-1/4 xl:w-1/4 md:m-4 lg:m-8 xl:m-8 flex-shrink h-full' style={{backgroundImage: "url("+Image+")", backgroundSize: "contain", backgroundRepeat: "no-repeat"}}>
               </div>
           <div className='lg:w-32'></div>
         </div>

@@ -30,8 +30,8 @@ class HeaderContainer extends Component {
           <svg className="fill-current h-10 w-10" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
         </button>
         </div>
-        <div className="mt-4 mr-8">
-           <img className='float-right mr-2' src={heygveve} height="40%" width="40%" />
+        <div className="lg:mr-8 md:mr-8 xl:mr-8 pb-4 md:mt-4 lg:mt-4 xl:mt-4 sm:pl-8 sm:ml-8">
+           <img className='float-right lg:mr-2 sm:pl-8 sm:ml-8' src={heygveve} height="50" width="auto" />
         </div>
       </nav>
       </div>

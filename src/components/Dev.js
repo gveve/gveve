@@ -50,8 +50,8 @@ class Dev extends Component{
     return(
       <div className="w-full container h-full flex">
         <div className="flex container w-full">
-          <div className='w-16 lg:w-16 xl:w-16 sm:w-2 sm:flex  bg-light-blu'/>
-          <div className='container flex'>
+          <div className='w-16 lg:w-16 xl:w-16 sm:w-2 lg:flex-none md:flex-none xl:flex-none sm:flex'/>
+          <div className='container flex xl:pr-8 lg:pr-8 lg:mr-8 md:pr-4'>
           <Swiper {...HorizontalSwiperParams}>
             <div className="block overflow-auto">
              <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
@@ -70,7 +70,7 @@ class Dev extends Component{
                  </div>
              </div>
                  <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4' >
-                   <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8"{...VerticalSwiperParams}>
+                   <Swiper {...VerticalSwiperParams}>
                      <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                        <a href="http://vapor-paint.surge.sh/" target="_blank" rel="noopener noreferrer">
                        <img  src={Vaporpaint} width="auto" height="300"/>
@@ -179,7 +179,7 @@ class Dev extends Component{
                </div>
           </Swiper>
           </div>
-          <div className=' md:w-8 lg:w-16 xl:w-16 flex bg-light-blu'/>
+          <div className=' sm:w-px md:w-px lg:w-16 xl:w-16 flex'/>
         </div>
       </div>
 
