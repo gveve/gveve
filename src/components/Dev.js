@@ -48,10 +48,10 @@ class Dev extends Component{
     };
 
     return(
-      <div className="w-full container h-full flex">
-        <div className="flex container w-full">
-          <div className='w-16 lg:w-16 xl:w-16 sm:w-2 lg:flex-none md:flex-none xl:flex-none sm:flex'/>
-          <div className='container flex xl:pr-8 lg:pr-8 lg:mr-8 md:pr-4'>
+      <div className="w-full container h-full">
+        <div className="container w-full">
+          <div className='lg:w-24 xl:w-24 md:w-16 sm:w-2 lg:flex-none md:flex-none xl:flex-none sm:flex'/>
+          <div className='flex ml-8'>
           <Swiper {...HorizontalSwiperParams}>
             <div className="block overflow-auto">
              <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
@@ -156,7 +156,7 @@ class Dev extends Component{
                          </div>
                    </div>
                </div>
-                   <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4' >
+                   <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 ' >
                      <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8"{...VerticalSwiperParams}>
                        <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                          <a href="https://liamkillion.github.io/game-of-dethrones/" target="_blank" rel="noopener noreferrer">
@@ -179,7 +179,7 @@ class Dev extends Component{
                </div>
           </Swiper>
           </div>
-          <div className=' sm:w-px md:w-px lg:w-16 xl:w-16 flex'/>
+          <div className=' sm:w-px md:w-px lg:w-32 xl:w-16 container flex-none'/>
         </div>
       </div>
 
