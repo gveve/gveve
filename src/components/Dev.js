@@ -48,14 +48,13 @@ class Dev extends Component{
     };
 
     return(
-      <div className="w-full container h-full">
-        <div className="container w-full">
-          <div className='lg:w-24 xl:w-24 md:w-16 sm:w-2 lg:flex-none md:flex-none xl:flex-none sm:flex'/>
-          <div className='flex ml-8'>
+      <div className="w-auto h-full">
+          <div className='lg:w-24 xl:w-24 md:w-16 sm:w-px lg:flex-none md:flex-none xl:flex-none sm:flex bg-blue-lighter'/>
+          <div className='flex lg:ml-8 lg:mr-8 h-full'>
           <Swiper {...HorizontalSwiperParams}>
             <div className="block overflow-auto">
              <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
-             <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8'>
+             <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
                  <div className='block'>
                    <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">VAPOR PAINT</div>
                    <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">HTML5 Canvas based responsive paint app</div>
@@ -69,16 +68,16 @@ class Dev extends Component{
                      </div>
                  </div>
              </div>
-                 <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4' >
+                 <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4 h-full' >
                    <Swiper {...VerticalSwiperParams}>
                      <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                        <a href="http://vapor-paint.surge.sh/" target="_blank" rel="noopener noreferrer">
-                       <img  src={Vaporpaint} width="auto" height="300"/>
+                       <img  src={Vaporpaint} width="100%" height="auto"/>
                        </a>
                      </div>
                      <div className="mmd:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                        <a href="http://vapor-paint.surge.sh/" target="_blank" rel="noopener noreferrer">
-                       <img src={EveryVapor} width="auto" height="300"/>
+                       <img src={EveryVapor} width="100%" height="auto"/>
                        </a>
                      </div>
                    </Swiper>
@@ -116,12 +115,12 @@ class Dev extends Component{
                     <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8"{...VerticalSwiperParams}>
                       <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <a href="http://really-good-photos.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                        <img  src={Reallygood} width="auto" height="300"/>
+                        <img  src={Reallygood} width="100%" height="auto"/>
                         </a>
                       </div>
                       <div className="mmd:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <a href="http://really-good-photos.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                        <img src={Reallygood2} width="auto" height="300"/>
+                        <img src={Reallygood2} width="100%" height="auto"/>
                         </a>
                       </div>
                     </Swiper>
@@ -160,17 +159,17 @@ class Dev extends Component{
                      <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8"{...VerticalSwiperParams}>
                        <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                          <a href="https://liamkillion.github.io/game-of-dethrones/" target="_blank" rel="noopener noreferrer">
-                         <img  src={Gameof1} width="auto" height="300"/>
+                         <img  src={Gameof1} width="100%" height="auto"/>
                          </a>
                        </div>
                        <div className="mmd:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                          <a href="https://liamkillion.github.io/game-of-dethrones/" target="_blank" rel="noopener noreferrer">
-                         <img src={Gameof2} width="auto" height="300"/>
+                         <img src={Gameof2} width="100%" height="auto"/>
                          </a>
                        </div>
                        <div className="mmd:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8">
                          <a href="https://liamkillion.github.io/game-of-dethrones/" target="_blank" rel="noopener noreferrer">
-                         <img src={Gameof3} width="auto" height="300"/>
+                         <img src={Gameof3} width="100%" height="auto"/>
                          </a>
                        </div>
                      </Swiper>
@@ -179,8 +178,7 @@ class Dev extends Component{
                </div>
           </Swiper>
           </div>
-          <div className=' sm:w-px md:w-px lg:w-32 xl:w-16 container flex-none'/>
-        </div>
+          <div className=' sm:w-px md:w-px lg:w-32 xl:w-64 container bg-blue-lighter flex'/>
       </div>
 
     )
