@@ -53,9 +53,9 @@ class App extends Component {
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='adjust' />
             Projects
           </Menu.Item>
-          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/art' >
+          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/portfolio' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='circle' />
-            Art
+            Portfolio
           </Menu.Item>
           <Menu.Item name='moon' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/contact'>
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='moon' />
@@ -68,7 +68,7 @@ class App extends Component {
         <Route  path='/contact' component={Contact}/>
         <Route  path="/projects" component={Projects}/>
         <Route path='/web' component={Dev}/>
-        <Route path='/art' component={Art}/>
+        <Route path='/portfolio' component={Art}/>
         <Redirect exact from='/' to='/home' />
         </Switch>
         </Sidebar.Pusher>

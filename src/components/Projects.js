@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from 'react-router-dom';
 import '../index.tailwind.css';
+import 'react-id-swiper/src/styles/css/swiper.css'
+import Swiper from 'react-id-swiper';
 
 class Projects extends Component{
 

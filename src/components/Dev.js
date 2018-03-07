@@ -58,13 +58,15 @@ class Dev extends Component{
                  <div className='block'>
                    <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">VAPOR PAINT</div>
                    <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">HTML5 Canvas based responsive paint app</div>
-                     <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4" href="http://vapor-paint.surge.sh/" target="_blank" rel="noopener noreferrer"> Demo</a>
-                     <a className="text-grey-darker leading-loose text-sm pl-8 pt-4" href="https://github.com/gveve/test_colors_frontend" target="_blank" rel="noopener noreferrer">GitHub</a>
-                     <div className="text-grey-darker leading-loose text-sm pl-8 pt-4">
-                     + Deployed app using Heroku for the backend and Surge for the frontend <br/>
-                     + Implemented full user authentication using Ruby gem ‘bcrypt’, localstorage, and JSON web tokens <br/>
-                     + Built front-end with React and object-oriented JS, using React Router, Victory React (charting), and Semantic UI <br/>
-                     + Integrated third-party Intrinio API to populate Postgres database with financial data
+                     <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4 text-bold" href="http://vapor-paint.surge.sh/" target="_blank" rel="noopener noreferrer"> Demo</a>
+                     <a className="text-grey-darker leading-loose text-sm pl-8 pt-4 text-bold" href="https://github.com/gveve/test_colors_frontend" target="_blank" rel="noopener noreferrer">GitHub</a>
+                     <div className="text-grey-darker text-sm pt-4">
+                     <ul>
+                     <li>Deployed app using Heroku for the backend and Surge for the frontend</li>
+                     <li>Implemented full user authentication using Ruby gem ‘bcrypt’, localstorage, and JSON web tokens</li>
+                     <li>Built front-end with React and object-oriented JS, using React Router, HTML Canvas, and Tailwind CSS</li>
+                     <li>Integrated third-party Chroma API to populate Postgres database with Pantone color data</li>
+                     </ul>
                      </div>
                  </div>
              </div>
@@ -88,26 +90,27 @@ class Dev extends Component{
 
              <div className="block overflow-auto">
               <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
-              <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8'>
+              <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
                   <div className='block'>
                     <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">REALLY GOOD PHOTOS</div>
-                    <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">A location based photo search app</div>
-                      <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4" href="http://really-good-photos.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Demo</a>
-                      <a className="text-grey-darker leading-loose text-sm pl-8 pt-4" href="https://github.com/gveve/really_good_photos" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">A location based photo sharing app</div>
+                      <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4 text-bold" href="http://really-good-photos.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Demo</a>
+                      <a className="text-grey-darker leading-loose text-sm pl-8 pt-4 text-bold" href="https://github.com/gveve/really_good_photos" target="_blank" rel="noopener noreferrer">GitHub</a>
                       <div className="flex inline-flex pl-8">
                         <div className="text-grey-darker text-sm">Built with:</div>
-                        <a className="ml-1 text-grey-darker text-sm" href="https://github.com/rjmascolo" target="_blank" rel="noopener noreferrer">   Ryan Mascolo </a>
+                        <a className="ml-1 text-grey-darker text-sm text-bold" href="https://github.com/rjmascolo" target="_blank" rel="noopener noreferrer">   Ryan Mascolo </a>
                         <div className="ml-1 text-grey-darker text-sm"> & </div>
-                        <a className=" ml-1 text-grey-darker text-sm " href="https://github.com/jcstorms1" target="_blank" rel="noopener noreferrer">   Jordan Storms </a>
+                        <a className=" ml-1 text-grey-darker text-sm text-bold" href="https://github.com/jcstorms1" target="_blank" rel="noopener noreferrer">   Jordan Storms </a>
                         </div>
-                        <div className="text-grey-darker leading-loose text-sm pl-8 pt-4">
-                        + Deployed app using Heroku <br/>
-                        + Implemented full user authentication using Ruby gem ‘bcrypt’ <br/>
-                        + Built front-end with Ruby, and BootStrap UI <br/>
-                        + Integrated third-party Google API to display photo locations on a map <br/>
-                        + Used ERB templating, Bootstrap, HTML, and custom CSS to create responsive front-end <br/>
-                        + Created RESTful web app with full CRUD capabilities using Rails, ActiveRecord, Postgres, and ‘paperclip’ Ruby gem <br/>
-                        + Utilized Git/Github for version control, ActiveRecord model associations and validations, and sessions for user control flow
+                        <div className="text-grey-darker text-sm pt-4">
+                        <ul>
+                        <li>Deployed using Heroku </li>
+                        <li>Implemented full user authentication using Ruby gem ‘bcrypt’ </li>
+                        <li>Built front-end with Ruby, and BootStrap UI </li>
+                        <li>Integrated third-party Google API to display photo locations on a map </li>
+                        <li>Used ERB templating, Bootstrap, HTML, and custom CSS to create responsive front-end </li>
+                        <li>Created RESTful JSON API web app with full CRUD capabilities using Rails, ActiveRecord, SQL, and the GeoCoder gem. </li>
+                        </ul>
                         </div>
                   </div>
               </div>
@@ -131,7 +134,7 @@ class Dev extends Component{
 
               <div className="block overflow-auto">
                <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
-               <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8'>
+               <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
                    <div className='block'>
                      <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">GAME OF DETHRONES</div>
                      <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">A single page Game of Thrones choose your own adventure game</div>
@@ -143,15 +146,14 @@ class Dev extends Component{
                          <div className="ml-1 text-grey-darker text-sm"> & </div>
                          <a className=" ml-1 text-grey-darker text-sm " href="https://github.com/liamkillion" target="_blank" rel="noopener noreferrer">   Liam Killion </a>
                          </div>
-                         <div className="text-grey-darker leading-loose text-sm pl-8 pt-4">
-                         + Deployed app using Github <br/>
-                         + Implemented full user authentication using Ruby gem ‘bcrypt’, localstorage, and JSON web tokens<br/>
-                         + Made a Single Page Application using vanilla JavaScript, Bootstrap, ES6 features, and DOM manipulation<br/>
-                         + Worked with asynchronous control flow, promises, and callbacks to make requests to backend API<br/>
-                         + Used ERB templating, Bootstrap, HTML, and custom CSS to create responsive front-end<br/>
-                         + Designed RESTful JSON API with full CRUD capabilities using Rails, ActiveRecord, SQLite and ‘faker’ Ruby gem<br/>
-                         + Integrated third-party Intrinio API to populate Postgres database with financial data<br/>
-                         + Utilized Git/Github for version control, ActiveRecord model associations and validations, and sessions for user control flow<br/>
+                         <div className="text-grey-darker text-sm pt-4">
+                         <ul>
+                        <li> Deployed app using Github </li>
+                        <li> Made a Single Page Application using vanilla JavaScript, Bootstrap, ES6 features, and DOM manipulation</li>
+                         <li>Utilized Git/Github for version control, ActiveRecord model associations and validations, and sessions for user control flow</li>
+                         <li>Used HTML, and custom CSS to create responsive front-end animations</li>
+                         <li>Used Nokogiri gem to complie storyline</li>
+                         </ul>
                          </div>
                    </div>
                </div>

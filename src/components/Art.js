@@ -44,7 +44,7 @@ class Art extends Component{
 
     return(
       <div className="w-full h-full flex overflow-auto">
-        <div className="flex w-full mt-8">
+        <div className="flex w-full ml-2 mt-8">
           <div className='sm:w-2 xl:w-16 md:w-16 lg:w-16 h-full'/>
           <div className='flex-1 mt-8 text-center'>
               <div className="flex flex-wrap justify-around">
