@@ -10,6 +10,7 @@ import Homepage from './components/Homepage';
 import Projects from './components/Projects';
 import Dev from './components/Dev';
 import Art from './components/Art';
+import Resume from './components/Resume';
 import Party from './components/Party';
 
 
@@ -53,7 +54,7 @@ class App extends Component {
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='adjust' />
             Projects
           </Menu.Item>
-          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/portfolio' >
+          <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/art' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='circle' />
             Portfolio
           </Menu.Item>
@@ -68,7 +69,8 @@ class App extends Component {
         <Route  path='/contact' component={Contact}/>
         <Route  path="/projects" component={Projects}/>
         <Route path='/web' component={Dev}/>
-        <Route path='/portfolio' component={Art}/>
+        <Route path='/art' component={Art}/>
+        <Route path='/portfolio' component={Resume}/>
         <Redirect exact from='/' to='/home' />
         </Switch>
         </Sidebar.Pusher>
