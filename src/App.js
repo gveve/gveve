@@ -71,7 +71,7 @@ class App extends Component {
         <Route path='/web' component={Dev}/>
         <Route path='/art' component={Art}/>
         <Route path='/portfolio' component={Resume}/>
-        <Redirect exact from='/' to='/home' />
+        <Route exact path='/' render={()=><Redirect to='/home'/>}/>
         </Switch>
         </Sidebar.Pusher>
         </Sidebar.Pushable>
