@@ -9,12 +9,7 @@ import Buzzyou from '../images/work/BuzzFeed/Benefitsfront5.jpg';
 import Buzzfam from '../images/work/BuzzFeed/Techfont3.jpg';
 import Buzztech from '../images/work/BuzzFeed/Family22.jpg';
 import Buzzback from '../images/work/BuzzFeed/backthing.jpg';
-import Wash25 from  '../images/work/TwoTrees/twotreesny/ws2.png';
-import dumboover from  '../images/work/TwoTrees/twotreesny/divdlkvnlksds.png';
-import dumbomap from  '../images/work/TwoTrees/twotreesny/map.png';
-import Ws4 from  '../images/work/TwoTrees/twotreesny/ws4.png';
-import Carrot from  '../images/work/TwoTrees/twotreesny/TTcarrot.jpg';
-import Huge from  '../images/work/TwoTrees/twotreesny/TThuge.jpg';
+
 import dog from  '../images/work/TwoTrees/60waterst/dog.png';
 import TT601 from  '../images/work/TwoTrees/60waterst/TwoTrees_60Water_BrokerageSigns_0119_21.jpg';
 import TT602 from  '../images/work/TwoTrees/60waterst/TwoTrees_60Water_BrokerageSigns_0119_22.jpg';
@@ -79,6 +74,14 @@ import graphic15 from  '../images/work/TwoTrees/ttgraphics/15graphic.jpg';
 import graphic16 from  '../images/work/TwoTrees/ttgraphics/16graphic.png';
 import graphic17 from  '../images/work/TwoTrees/ttgraphics/17graphic.png';
 import graphic18 from  '../images/work/TwoTrees/ttgraphics/18graphic.png';
+import ITTT1 from  '../images/work/TwoTrees/ITwork/ITTT1.jpg';
+import ITTT2 from  '../images/work/TwoTrees/ITwork/ITTT2.png';
+import ITTT3 from  '../images/work/TwoTrees/ITwork/ITTT3.png';
+import ITTT4 from  '../images/work/TwoTrees/ITwork/ITTT4.png';
+import ITTT5 from  '../images/work/TwoTrees/ITwork/ITTT5.png';
+import ITTT6 from  '../images/work/TwoTrees/ITwork/ITTT6.png';
+import ITTT7 from  '../images/work/TwoTrees/ITwork/ITTT7.png';
+import ITTT8 from  '../images/work/TwoTrees/ITwork/ITTT8.png';
 
 
 class Projects extends Component{
@@ -109,6 +112,9 @@ class Projects extends Component{
           thumbRef(ref) {
             if (ref) this.setState({ thumbnailSwiper: ref.swiper })
           }
+
+
+
 
 
 
@@ -156,7 +162,28 @@ class Projects extends Component{
       }
     };
 
-    const other = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJrYoMdscW4V8adxgPubm_Jyz9UJd2annEWHVls0bRbN030Er"
+    const testing = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZJrYoMdscW4V8adxgPubm_Jyz9UJd2annEWHVls0bRbN030Er"
+
+    const images = importAll(require.context('../images/work/TwoTrees/twotreesny/', false, /\.(png|jpe?g|svg)$/));
+
+
+    function importAll(r){
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+    }
+
+
+    function showImages(){
+      return Object.keys(images).map( (thing, i) => {
+        let other = '../images/work/TwoTrees/twotreesny/'+`${thing}`
+        return (
+          <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+            <img  src={require("../images/work/TwoTrees/twotreesny/"+thing+"")} width="auto" height="400"/>
+          </div>
+      )
+      })
+    }
 
 
     return(
@@ -164,22 +191,24 @@ class Projects extends Component{
         <Swiper {...gallerySwiperParams} ref={this.galleryRef}>
         <div className="block overflow-auto">
          <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
-         <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
+         <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
              <div className='block lg:ml-8 xl:ml-8'>
                <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">BUZZFEED</div>
-               <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Global intranet development - and internal marketing and branding</div>
+               <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Global Software Development</div>
                  <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4 text-bold" href="http://buzzfeed.com/" target="_blank" rel="noopener noreferrer"> BuzzFeed.com</a>
                  <div className="text-grey-darker text-sm pt-4">
                  <ul>
-                 <li>Lead project management on a global software and intranet development</li>
-                 <li>Developed branding and marketing campaings for the intranet and software roll out</li>
-                 <li>Managed employee outreach, benefits, and perks programs. Achieving highest enrollment and engagement to date</li>
-                 <li>Designed creative assests, print, digital, and merch to improve candidate outreach and retention </li>
+                 <li>Lead project management on a global software and intranet development used by 1500 employees in 10 countires.</li>
+                 <li>Developed branding marketing campaings, and swag to enhance the employee expereicne.</li>
+                 <li>Managed multiplie vendors and contractors including; developers, deisgners, producers, merchandiser, and benefit providers.</li>
+                 <li> Built and implemented Project best practice, imcluding timelines, overall coordination, and full lifecycle process design.</li>
+                 <li>Managed employee outreach, benefits, and perks programs.</li>
+                 <li>Designed creative assests, print, and digital.</li>
                  </ul>
                  </div>
              </div>
          </div>
-             <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4 h-full' >
+             <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 h-full' >
                <Swiper {...VerticalSwiperParams}>
                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
                    <img  src={Buzzyou} width="auto" height="400"/>
@@ -204,7 +233,7 @@ class Projects extends Component{
 
          <div className="block overflow-auto">
           <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
-          <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
+          <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
               <div className='block lg:ml-8 xl:ml-8'>
                 <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">TWO TREES</div>
                 <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Development of the Two Trees company website</div>
@@ -212,35 +241,18 @@ class Projects extends Component{
                     <div className="text-grey-darker text-sm pt-4">
                     <ul>
                     <li>Assisted in the redesign of the Two Trees website to enhance  transaction pipeline, mobile experience, and third party integrations.</li>
-                    <li>Worked directly with digital creative agency Hungry to completely overhaul the Two Trees’ company website.</li>
-                    <li>Assisted in developing wireframes, userstories, UX and UI design, and graphics.</li>
+                    <li>Worked directly with creative agencies to develop wireframes, userstories, UX and UI design, and graphics.</li>
                     <li>Sourced freelancers, contract agencies and resources for photoshoots, graphic design, videography and editing, and interior design.</li>
                     <li>Refocused content, updated brand identity and graphic design, and highlight cultural outreach.</li>
-                    <li>Increased visit time by 54% and click-throughs by 33%</li>
+                    <li>Increased visit time by 54% and click-throughs by 33%.</li>
+                    <li>Developed strong social media strategy, increased account engagement by 43%.</li>
                     </ul>
                     </div>
               </div>
           </div>
-              <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4' >
+              <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
                 <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white"{...VerticalSwiperParams}>
-                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                    <img  src={Wash25} width="auto" height="400"/>
-                  </div>
-                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                    <img  src={Ws4} width="auto" height="400"/>
-                  </div>
-                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                    <img  src={dumboover} width="auto" height="400"/>
-                  </div>
-                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                    <img  src={dumbomap} width="auto" height="400"/>
-                  </div>
-                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                    <img  src={Carrot} width="auto" height="400"/>
-                  </div>
-                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                    <img  src={Huge} width="auto" height="400"/>
-                  </div>
+                  {showImages()}
                 </Swiper>
               </div>
           </div>
@@ -248,27 +260,35 @@ class Projects extends Component{
 
           <div className="block overflow-auto">
            <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
-           <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
+           <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
                <div className='block lg:ml-8 xl:ml-8'>
                  <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">TWO TREES</div>
-                 <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Marketing of the Two Trees property 60 Water St.</div>
+                 <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Marketing of Two Trees properties</div>
                    <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4 text-bold" href="http://twotreesny.com/" target="_blank" rel="noopener noreferrer">Twotreesny.com</a>
                      <div className="text-grey-darker text-sm pt-4">
                      <ul>
-                     <li>Worked closely with the Director of Marketing to create develop new marketing strategy for the residential building 60 Water St.</li>
+                     <li>Created marketing strategy for the residential and commercial building in Brooklyn & Manhattan</li>
 
                     <li>Developed campaign marketing material, brand touch points, and target audience strategy with the digital marketing agency Hungry to develop the 60 Water St. “Your First” campaign.</li>
 
-                    <li>Worked with Rhode Advertising on brand identity, logo, and color scheme.</li>
+                    <li>Integrated brand identity, logo, and color scheme throughout campagins for a cohesive aesthetic.</li>
 
-                    <li>Managed a $500,000 creative budget and $750,000 media buy with agency Ikon3.</li>
+                    <li>Managed a creative budgets and assisted in media buys.</li>
 
                     <li>Achieved the highest residential rent roll in Brooklyn to date.</li>
+                    <li>Designed Marketing material for cross funtional platforms, print, digital, indoor/outdoor advertising, and radio.</li>
+                    <ul>
+                    <div className="text-grey-darker font-bold text-sm tracking-wide">NOTABLE PROJECTS</div>
+                     <li><a className="text-grey-dark text-sm text-bold" href="http://60water.com/" target="_blank" rel="noopener noreferrer">60 Water St.</a></li>
+                     <li><a className="text-grey-dark text-sm text-bold" href="http://60water.com/" target="_blank" rel="noopener noreferrer">300 Ashland Place.</a></li>
+                     <li><a className="text-grey-dark text-sm text-bold" href="https://www.325kent.com/" target="_blank" rel="noopener noreferrer">Domino Sugar Factory</a></li>
+                     <li><a className="text-grey-dark text-sm text-bold" href="https://www.mercedeshouseny.com/" target="_blank" rel="noopener noreferrer">Mercedes House</a></li>
+                     </ul>
                     </ul>
                     </div>
                </div>
            </div>
-               <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 md:ml-4 lg:ml-4 xl:ml-4' >
+               <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
                  <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white"{...VerticalSwiperParams}>
                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
                      <img  src={dog} width="auto" height="400"/>
@@ -295,6 +315,109 @@ class Projects extends Component{
                </div>
            </div>
            </div>
+
+           <div className="block overflow-auto">
+            <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
+            <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
+                <div className='block lg:ml-8 xl:ml-8'>
+                  <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">TWO TREES</div>
+                  <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Graphic Design for Two Trees</div>
+                    <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4 text-bold" href="http://twotreesny.com/" target="_blank" rel="noopener noreferrer">Twotreesny.com</a>
+                      <div className="text-grey-darker text-sm pt-4">
+                      <ul>
+                      <li>Designed marketing packages and layouts for branded advertising.</li>
+                      <li>Used Photoshop, Illustrator, and Indesign to create cohesive advertisments, and graphics for cross platform print and digital spaces.</li>
+                      <li>Managed creative assests, and overall aesthetic identity.</li>
+                      <li>Defined creative direction and vision throughout design and creative projects.</li>
+                     </ul>
+                     </div>
+                </div>
+            </div>
+                <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
+                  <Swiper {...VerticalSwiperParams}>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic1} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic5} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic2} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic16} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic6} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic7} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic9} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic11} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic12} width="auto" height="400"/>
+                    </div>
+                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                      <img  src={graphic15} width="auto" height="400"/>
+                    </div>
+                  </Swiper>
+                </div>
+            </div>
+            </div>
+
+            <div className="block overflow-auto">
+             <div className='xl:flex lg:flex md:flex sm:block md:justify-around lg:justify-around xl:justify-around'>
+             <div className='md:w-2/5 lg:w-2/5 xl:2/5 sm:w-screen sm:block overflow-auto md:ml-8 lg:ml-8 xl:ml-8 xl:pl-8 lg:pl-8 mb-8'>
+                 <div className='block lg:ml-8 xl:ml-8'>
+                   <div className="text-black font-bold text-xl tracking-wide ml-8 md:mt-8 lg:mt-8 xl:mt-8">TWO TREES</div>
+                   <div className="text-black font-bold text-base ml-8 md:mt-4 lg:mt-4 xl:mt-4">Tech Development and IT Management</div>
+                     <a className="text-grey-darker leading-loose text-sm pl-8 md:pt-4 lg:pt-4 xl:pt-4 text-bold" href="http://twotreesny.com/" target="_blank" rel="noopener noreferrer">Twotreesny.com</a>
+                       <div className="text-grey-darker text-sm pt-4">
+                       <ul>
+                       <li>Managed company wide IT team of 8 and overall tech procurment and development.</li>
+                       <li>Redesigned Company servers and networks to improve performance and workflow.</li>
+                       <li>Developed operational practices for tech and IT management.</li>
+                       <li>Implemented new technology and upgrades, deployed new server systems and networks, oversaw network access and security, holder of all admin permissions.</li>
+                       <li>Researched and deployed creative tech projects such as digital art displays, projections, interactive digital art, and music and TV systems.</li>
+                       <li>Managed all network infastructure contractors, low voltage, internet, fiber, and security cameras.</li>
+                       <li>Managed full IT and Tech budgeting, including development, and procurment.</li>
+                       <li>Coordinated installation of video and audio systems for interactive art, displays, and sound systems.</li>
+                       </ul>
+                      </div>
+                 </div>
+             </div>
+                 <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
+                   <Swiper {...VerticalSwiperParams}>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT1} width="auto" height="400"/>
+                     </div>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT3} width="auto" height="400"/>
+                     </div>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT4} width="auto" height="400"/>
+                     </div>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT5} width="auto" height="400"/>
+                     </div>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT6} width="auto" height="400"/>
+                     </div>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT7} width="auto" height="400"/>
+                     </div>
+                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
+                       <img  src={ITTT8} width="auto" height="400"/>
+                     </div>
+                   </Swiper>
+                 </div>
+             </div>
+             </div>
 
         </Swiper>
       </div>

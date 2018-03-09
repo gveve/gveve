@@ -1,20 +1,9 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { Link, withRouter } from 'react-router-dom';
+import Modal from 'react-modal';
 import '../index.tailwind.css';
-import cart2 from "../images/art/cart2.jpg";
-import gurl from "../images/art/gurl.jpg";
-import mansculpt from "../images/art/mansculpt.jpg";
-import nona from "../images/art/nona.jpg";
-import pigskull from "../images/art/pigskull.jpg";
-import poppi from "../images/art/poppi_copy.jpg";
-import sculpback from "../images/art/sculpback.jpg";
-import sculpside from "../images/art/sculpside.png";
-import sculptlady from "../images/art/sculptlady.jpg";
-import sculptlady2 from "../images/art/sculptlady2.jpg";
 
-
-  let arts = [sculpback, sculpside, sculptlady, sculptlady2, nona, poppi, mansculpt, pigskull, cart2, gurl,]
 
 
 
@@ -23,15 +12,27 @@ class Art extends Component{
     super()
 
     this.state=({
-      filter: ""
+      filter: "",
+      showModal: false,
+      img: ""
     })
   }
 
+  handleOpenModal = (event) => {
+   this.setState({
+     showModal: true,
+     img: event.target.id
+    });
+   }
 
+   handleCloseModal = () => {
+     this.setState({ showModal: false });
+   }
 
   render(){
 
-    const images = importAll(require.context('../images/art', false, /\.(png|jpe?g|svg)$/));
+    const images = importAll(require.context('../images/art', true, /\.(png|jpe?g|svg)$/));
+
 
     function importAll(r){
     let images = {};
@@ -39,14 +40,15 @@ class Art extends Component{
     return images;
     }
 
+
     function showImages(){
+
       return Object.keys(images).map( (thing, i) => {
-        debugger;
-        let other = `../images/art/${thing}`
+        let other = "../images/art/"+thing+""
         return (
         <div className="column nature">
         <div className="content w-64 mx-3 my-6">
-          <img src={require('../images/art/pigskull.jpg')} alt="Mountains" style={{width: "100%"}}/>
+          <img onClick={this.handleCloseModal} id={other} src={require("../images/art/"+thing+"")}  style={{width: "100%", height: "auto"}}/>
         </div>
         </div>
       )
@@ -60,17 +62,12 @@ class Art extends Component{
           <div className='sm:w-2 xl:w-16 md:w-16 lg:w-16 h-full'/>
           <div className='flex-1 mt-8 text-center'>
               <div className="flex flex-wrap justify-around">
-              <div className="column nature">
-              <div className="content w-64 mx-3 my-6">
-                <img src={pigskull} alt="Mountains" style={{width: "100%"}}/>
-              </div>
-              </div>
-              <div className="column nature">
-              <div className="content w-64 mx-3 my-6">
-                <img src={require('../images/art/pigskull.jpg')} alt="Mountains" style={{width: "100%"}}/>
-              </div>
-              </div>
                 {showImages()}
+                <Modal
+           isOpen={this.state.showModal}
+           handleClose={this.handleCloseModal}
+           >
+        </Modal>
               </div>
           </div>
           <div className='sm:w-2 lg:w-12 xl:w-12 md:w-12 h-full'/>

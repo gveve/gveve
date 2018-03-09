@@ -6,13 +6,13 @@ import '../index.tailwind.css';
 import 'react-id-swiper/src/styles/css/swiper.css'
 import 'semantic-ui-css/semantic.min.css';
 import {Icon, Menu, Item} from 'semantic-ui-react';
-import EveryVapor from '../images/everyvapor.png'
-import Gameof1 from '../images/gameof1.png'
-import Gameof2 from '../images/gameof2.png'
-import Gameof3 from '../images/gameof3.png'
-import Reallygood from '../images/reallygood.png'
-import Reallygood2 from '../images/reallygood2.png'
-import Vaporpaint from '../images/vaporpaint.png'
+import EveryVapor from '../images/web/everyvapor.png'
+import Gameof1 from '../images/web/gameof1.png'
+import Gameof2 from '../images/web/gameof2.png'
+import Gameof3 from '../images/web/gameof3.png'
+import Reallygood from '../images/web/reallygood.png'
+import Reallygood2 from '../images/web/reallygood2.png'
+import Vaporpaint from '../images/web/vaporpaint.png'
 
 
 
@@ -105,11 +105,11 @@ class Dev extends Component{
                         <div className="text-grey-darker text-sm pt-4">
                         <ul>
                         <li>Deployed using Heroku </li>
-                        <li>Implemented full user authentication using Ruby gem ‘bcrypt’ </li>
-                        <li>Built front-end with Ruby, and BootStrap UI </li>
+                        <li>Implemented user authentication using ActiveRecord model associations and validations, cookies, and sessions for user control flow</li>
+                        <li>Built front-end with Ruby on Rails, and BootStrap UI </li>
                         <li>Integrated third-party Google API to display photo locations on a map </li>
                         <li>Used ERB templating, Bootstrap, HTML, and custom CSS to create responsive front-end </li>
-                        <li>Created RESTful JSON API web app with full CRUD capabilities using Rails, ActiveRecord, SQL, and the GeoCoder gem. </li>
+                        <li>Created RESTful JSON API web app using Postgres, with full CRUD capabilities using Rails, ActiveRecord, SQL, and the GeoCoder gem. </li>
                         </ul>
                         </div>
                   </div>
@@ -149,10 +149,11 @@ class Dev extends Component{
                          <div className="text-grey-darker text-sm pt-4">
                          <ul>
                         <li> Deployed app using Github </li>
-                        <li> Made a Single Page Application using vanilla JavaScript, Bootstrap, ES6 features, and DOM manipulation</li>
-                         <li>Utilized Git/Github for version control, ActiveRecord model associations and validations, and sessions for user control flow</li>
+                        <li> Made a Single Page Application using object orient JavaScript, custom CSS, Nokogiri, ES6 features, and DOM manipulation</li>
+                         <li>Utilized Git/Github for version control</li>
                          <li>Used HTML, and custom CSS to create responsive front-end animations</li>
-                         <li>Used Nokogiri gem to complie storyline</li>
+                         <li>Used Nokogiri gem to perform XML fetch requests to populate storyline</li>
+                         <li>Created RESTful JSON API from a Rails backend</li>
                          </ul>
                          </div>
                    </div>

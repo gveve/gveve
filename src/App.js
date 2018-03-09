@@ -56,7 +56,7 @@ class App extends Component {
           </Menu.Item>
           <Menu.Item name='adjust' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/art' >
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='circle' />
-            Portfolio
+            Art
           </Menu.Item>
           <Menu.Item name='moon' className="text-blue-blu-dark leading-loose text-sm" as={Link} to='/contact'>
             <Icon circular className='text-blue-blu-dark bg-light-blu border border-0 border-transparent hover:border-2 hover:border-teal-blue' name='moon' />
