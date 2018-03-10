@@ -65,12 +65,12 @@ class App extends Component {
         </Sidebar>
         <Sidebar.Pusher style={{ height: '84vh'}} className="mx-8" id='container'>
         <Switch>
-        <Route path='/home' component={Homepage}/>
-        <Route  path='/contact' component={Contact}/>
-        <Route  path="/projects" component={Projects}/>
-        <Route path='/web' component={Dev}/>
-        <Route path='/art' component={Art}/>
-        <Route path='/portfolio' component={Resume}/>
+        <Route path='/home' render={()=><Homepage/>}/>
+        <Route  path='/contact' render={()=><Contact/>}/>
+        <Route  path="/projects" render={()=><Projects/>}/>
+        <Route path='/web' render={()=><Dev/>}/>
+        <Route path='/art' render={()=><Art/>}/>
+        <Route path='/portfolio' render={()=><Resume/>}/>
         <Route exact path='/' render={()=><Redirect to='/home'/>}/>
         </Switch>
         </Sidebar.Pusher>

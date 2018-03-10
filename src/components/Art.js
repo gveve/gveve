@@ -116,7 +116,7 @@ class Art extends Component{
         // let other = `../images/art/${thing}`
         return (
         <div className="column nature">
-        <div className="content w-64 mx-3 my-6">
+        <div className="content w-64  mx-3 my-3">
           <img src={require("../images/art/"+thing+"")} alt="Mountains" style={{width: "100%"}}/>
         </div>
         </div>

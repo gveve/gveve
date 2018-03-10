@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import '../index.tailwind.css';
 import Background from '../images/linkme.jpg'
 import Other  from '../images/linkme5.png'
+import Thing from '../images/linkagain.jpg'
 
 // 'light-blu': '#caebf2',
 // 'grey-kinda': '#a9a9a9',
@@ -67,7 +68,7 @@ render(){
 
     return(
       <div className='flex'>
-      <div id='genny' className="flex-1 bg-left-top h-screen" style={{backgroundImage: "url(" + Other + ")",  backgroundSize: "contain", backgroundRepeat: 'no-repeat'}} >
+      <div id='genny' className="flex-1 bg-top h-screen" style={{backgroundImage: "url(" + Thing + ")",  backgroundSize: "contain", backgroundRepeat: 'no-repeat'}} >
       <div id="sketchy" className="flex-1">
         </div>
         </div>
