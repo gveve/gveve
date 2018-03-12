@@ -5,7 +5,7 @@ import '../index.tailwind.css';
 import 'semantic-ui-css/semantic.min.css';
 import {Icon, Menu} from 'semantic-ui-react';
 import Image from '../images/linkme3.png'
-import  Resume from '../images/GcostaCV18.pdf'
+import  Resume from '../images/Gcosta-CV-web.pdf'
 
 class Contact extends Component{
 

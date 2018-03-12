@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {BrowserRouter as Router, Route, Link, Switch, Redirect, IndexRedirect} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Link, Switch, Redirect, IndexRedirect, defaultRoute} from 'react-router-dom';
 import './index.tailwind.css';
 import 'semantic-ui-css/semantic.min.css';
 import { Sidebar, Segment, Button, Menu, Image, Icon, Header } from 'semantic-ui-react';

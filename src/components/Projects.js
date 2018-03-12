@@ -209,22 +209,19 @@ class Projects extends Component{
                  </div>
              </div>
          </div>
-             <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 h-full' >
+             <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 md:mr-2 lg:mr-2 xl:mr-2 h-full' >
                <Swiper {...VerticalSwiperParams}>
                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                   <img  src={Buzzyou} width="auto" height="400"/>
+                   <img  src={Buzzyou} width="100%" height="auto"/>
                  </div>
                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                   <img src={Buzztech} width="auto" height="400"/>
+                   <img src={Buzztech} width="100%" height="auto"/>
                  </div>
                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                   <img src={Buzzfam} width="auto" height="400"/>
+                   <img src={Buzzfam} width="100%" height="auto"/>
                  </div>
                  <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                   <img src={AAJA} width="auto" height="400"/>
-                 </div>
-                 <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
-                   <img src={Buzzback} width="auto" height="400"/>
+                   <img src={AAJA} width="100%" height="auto"/>
                  </div>
                </Swiper>
              </div>
@@ -251,7 +248,7 @@ class Projects extends Component{
                     </div>
               </div>
           </div>
-              <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
+              <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 md:mr-2 lg:mr-2 xl:mr-2 h-full' >
                 <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white"{...VerticalSwiperParams}>
                   {showImages()}
                 </Swiper>
@@ -289,7 +286,7 @@ class Projects extends Component{
                     </div>
                </div>
            </div>
-               <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
+               <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 h-full' >
                  <Swiper className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white"{...VerticalSwiperParams}>
                    <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
                      <img  src={dog} width="auto" height="400"/>
@@ -334,7 +331,7 @@ class Projects extends Component{
                      </div>
                 </div>
             </div>
-                <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
+                <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 md:mr-2 lg:mr-2 xl:mr-2 h-full' >
                   <Swiper {...VerticalSwiperParams}>
                     <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
                       <img  src={graphic1} width="auto" height="400"/>
@@ -392,7 +389,7 @@ class Projects extends Component{
                       </div>
                  </div>
              </div>
-                 <div className='text-center md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:ml-4 lg:ml-4 xl:ml-4' >
+                 <div className='text-center self-top md:w-3/5 lg:w-3/5 xl:3/5 sm:w-screen sm:block md:flex lg:flex xl:flex md:ml-4 lg:ml-4 xl:ml-4 h-full' >
                    <Swiper {...VerticalSwiperParams}>
                      <div className="md:mt-8 lg:mt-8 xl:mt-8 md:pt-8 lg:pt-8 xl:pt-8 bg-white">
                        <img  src={ITTT1} width="auto" height="400"/>
