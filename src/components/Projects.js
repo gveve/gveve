@@ -383,7 +383,7 @@ class Projects extends Component{
                        <li>Implemented new technology and upgrades, deployed new server systems and networks, oversaw network access and security, holder of all admin permissions.</li>
                        <li>Researched and deployed creative tech projects such as digital art displays, projections, interactive digital art, and music and TV systems.</li>
                        <li>Managed all network infastructure contractors, low voltage, internet, fiber, and security cameras.</li>
-                       <li>Managed full IT and Tech budgeting, including development, and procurment.</li>
+                       <li>Managed full IT and Tech budgeting, including development, and procurement.</li>
                        <li>Coordinated installation of video and audio systems for interactive art, displays, and sound systems.</li>
                        </ul>
                       </div>
